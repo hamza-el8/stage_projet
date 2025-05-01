@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: grey;
+  padding: 8px;
+}
+
+header img {
+  width: 10%;
+  height: 8vh;
+}
+
+/***********************/
+.table1 {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0; 
+  font-family: Arial, sans-serif;   
+} 
+
+.table1 th, .table1 td {
+  border: 1px solid #ddd;
+  text-align: left; 
+  text-align: center;  
+  padding: 5px;
+}
+
+.table1 th {
+  background-color: rgb(202, 197, 197);
+  color: white;
+}
+
+.table1 tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.table1 tr:hover {
+  background-color: #ddd;
+}
+
+.table1 td {
+  color: #333;
+} 
+
+/* Form  */ 
+
+
